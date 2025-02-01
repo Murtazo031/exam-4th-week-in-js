@@ -1,0 +1,86 @@
+.avatar {
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+}
+.user {
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: 28%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    gap: 15px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+.top {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between ;
+}
+.search{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 1px 5px 7px lightgray;
+    border-radius: 20px;
+    height: 30px;
+    padding: 10px;
+}
+.search input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: 15px;
+}
+.search button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#filter{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    box-shadow: 1px 5px 7px lightgray;
+    border-radius: 20px;
+    padding: 1%;
+    border: none;
+    outline: none;
+}
+.addNew{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px; 
+      
+}
